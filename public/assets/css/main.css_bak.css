@@ -124,6 +124,7 @@
 		color: #aaa;
 	}
 
+	/*
 	a {
 		-moz-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		-webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
@@ -138,7 +139,7 @@
 			border-bottom-color: transparent;
 			color: #00D3B7;
 		}
-
+*/
 	strong, b {
 		font-weight: 400;
 		color: #555;
