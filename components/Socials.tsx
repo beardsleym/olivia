@@ -11,7 +11,6 @@ import {
   AudibleIcon,
   IMDBIcon,
   InstagramIcon,
-  MailIcon,
   SpotlightIcon,
   TwitterIcon,
 } from "../assets/Icons";
@@ -95,18 +94,6 @@ export const Socials: React.FC<SocialsProps> = ({
         />
       ),
       href: "https://www.imdb.com/name/nm6371549",
-    },
-    {
-      icon: (
-        <MailIcon
-          color={useColorModeValue("black", "white")}
-          h={6}
-          w={6}
-          m={4}
-          key="e-mail"
-        />
-      ),
-      href: "https://docs.google.com/forms/d/e/1FAIpQLSep5mHDqbUovGMIdyj2KvBUPPIMD170bpD7WH58ADaYHWvDjA/viewform?usp=sf_link",
     },
   ];
   return (
