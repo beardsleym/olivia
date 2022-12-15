@@ -1,0 +1,7 @@
+name = "olivia-contact"
+main = "src/index.ts"
+compatibility_date = "2022-12-08"
+
+[vars]
+EMAIL_RECIPIENT = "matthew@beardsley.com.au"
+EMAIL_RECIPIENT_NAME = "Olivia"
