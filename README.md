@@ -22,7 +22,6 @@ wrangler publish
 
 ### Todo
 
-- [ ] refactor function and read env variables
 - [ ] add rate limiting and/or captcha to form
 
 ## Lint
