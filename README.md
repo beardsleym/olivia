@@ -20,7 +20,10 @@ wrangler dev src/index.ts # run dev
 wrangler publish
 ```
 
-TODO: refactor function and read env variables.
+### Todo
+
+- [ ] refactor function and read env variables
+- [ ] add rate limiting and/or captcha to form
 
 ## Lint
 
