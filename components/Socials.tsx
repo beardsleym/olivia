@@ -13,6 +13,7 @@ import {
   InstagramIcon,
   SpotlightIcon,
   TwitterIcon,
+  ShowcastIcon,
 } from "../assets/Icons";
 
 interface SocialsProps {
@@ -49,15 +50,15 @@ export const Socials: React.FC<SocialsProps> = ({
     },
     {
       icon: (
-        <TwitterIcon
+        <ShowcastIcon
           color={useColorModeValue("black", "white")}
           h={6}
           w={6}
           m={4}
-          key="Twitter"
+          key="Showcast"
         />
       ),
-      href: "https://twitter.com/olliebeardsley",
+      href: "https://showcast.com.au/",
     },
     {
       icon: (
