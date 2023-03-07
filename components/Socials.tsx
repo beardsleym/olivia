@@ -58,7 +58,7 @@ export const Socials: React.FC<SocialsProps> = ({
           key="Showcast"
         />
       ),
-      href: "https://showcast.com.au/",
+      href: "https://app.showcast.com.au/#/?eb29ef8b-9d7e-2778-42ea-aeb235a3c437",
     },
     {
       icon: (
