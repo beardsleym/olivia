@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Flex, Image } from "@chakra-ui/react";
+import { AspectRatio, Flex, Image } from "@chakra-ui/react";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, PrevButton, NextButton } from "./EmblaCarouselButtons";
 
