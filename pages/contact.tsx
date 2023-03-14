@@ -65,18 +65,8 @@ export default function Home() {
             mb={3}
             textAlign="center"
           >
-            Contact
+            Contact Olivia
           </Heading>
-          <Center>
-            <Text
-              maxW="md"
-              color={useColorModeValue("blackAlpha.600", "whiteAlpha.600")}
-            >
-              Lorem ipsum dolor sit amet consectetur. Nullam feugiat quam
-              malesuada ultrices magna ornare malesuada ullamcorper. Orci nec
-              ipsum sit amet sit.
-            </Text>
-          </Center>
         </Box>
         <Box
           backgroundColor={useColorModeValue("gray.50", "gray.900")}

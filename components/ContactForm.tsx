@@ -2,6 +2,7 @@ import {
   useColorModeValue,
   FormControl,
   FormLabel,
+  FormHelperText,
   Input,
   Button,
   Textarea,
@@ -75,11 +76,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({}) => {
   const isDisabled = () => !Object.values(contactForm).every((value) => value);
 
   return (
-    <FormControl maxW="md">
+    <FormControl maxW="md" isRequired>
       <form name="contact" onSubmit={handleSubmit}>
         <FormLabel>Name</FormLabel>
         <Input
-          placeholder="Name"
           mb={5}
           name="name"
           backgroundColor={bgColor}
@@ -89,16 +89,17 @@ export const ContactForm: React.FC<ContactFormProps> = ({}) => {
         <FormLabel>Email</FormLabel>
         <Input
           type="email"
-          placeholder="hello@world.com"
-          mb={5}
           name="email"
           backgroundColor={bgColor}
           value={contactForm.email}
           onChange={(e) => handleInputChange("email", e)}
         />
+        <FormHelperText mb={5}>
+          We&apos;ll never share your email.
+        </FormHelperText>
+
         <FormLabel>Message</FormLabel>
         <Textarea
-          placeholder="Here is a sample placeholder"
           resize="vertical"
           rounded="md"
           mb={5}
