@@ -1,4 +1,9 @@
-import { ColorModeScript } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  ColorModeScript,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { theme } from "../styles/theme";
 import Header from "./header";
 
@@ -7,6 +12,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const bg = useColorModeValue("gray.100", "gray.800");
+
   return (
     <html lang="en">
       {/*
@@ -16,7 +23,11 @@ export default function RootLayout({
       <Header />
       <body>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-        {children}
+        <Box bg={bg} minHeight="100vh">
+          <Container maxW="7xl" padding={0} bg={bg}>
+            {children}
+          </Container>
+        </Box>
       </body>
     </html>
   );
