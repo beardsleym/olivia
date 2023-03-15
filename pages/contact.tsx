@@ -2,11 +2,9 @@ import {
   Box,
   Heading,
   Center,
-  Container,
   useColorModeValue,
   Image,
   AspectRatio,
-  Text,
   Flex,
 } from "@chakra-ui/react";
 import { ChevronLeftIcon } from "@chakra-ui/icons";
@@ -16,8 +14,6 @@ import { Socials } from "../components/Socials";
 import { ContactForm } from "../components/ContactForm";
 
 export default function Home() {
-  const bg = useColorModeValue("gray.100", "gray.800");
-
   return (
     <>
       <Box

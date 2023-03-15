@@ -1,4 +1,4 @@
-import { Flex, Text, Link, useColorModeValue, Box } from "@chakra-ui/react";
+import { Flex, Text, Link, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 interface FooterProps {}
