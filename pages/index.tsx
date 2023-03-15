@@ -1,10 +1,4 @@
-import {
-  Box,
-  Heading,
-  Flex,
-  Container,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Box, Heading, Flex, useColorModeValue } from "@chakra-ui/react";
 import { Carousel } from "../components/Carousel";
 import { ImageGrid } from "../components/ImageGrid";
 import { Footer } from "../components/Footer";
@@ -12,7 +6,6 @@ import { Body } from "../components/Body";
 import { Socials } from "../components/Socials";
 
 export default function Home() {
-  const bg = useColorModeValue("gray.100", "gray.800");
   const slides = Array.from(Array(6).keys()).map(
     (slide) => `/avif/${slide + 1}.avif`
   );
