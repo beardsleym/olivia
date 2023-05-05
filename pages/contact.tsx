@@ -44,7 +44,7 @@ export default function Home() {
           </Box>
         </Flex>
         <AspectRatio ratio={1.5 / 1} maxW="2xl" margin="auto">
-          <Image src="avif/4.avif" alt="olivia" rounded="md" align="50% 25%" />
+          <Image src="avif/1.avif" alt="olivia" rounded="md" align="50% 10%" />
         </AspectRatio>
         <Heading
           variant="h2"

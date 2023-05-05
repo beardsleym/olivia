@@ -6,7 +6,7 @@ import { Body } from "../components/Body";
 import { Socials } from "../components/Socials";
 
 export default function Home() {
-  const slides = Array.from(Array(6).keys()).map(
+  const slides = Array.from(Array(11).keys()).map(
     (slide) => `/avif/${slide + 1}.avif`
   );
 
